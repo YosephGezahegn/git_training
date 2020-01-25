@@ -18,4 +18,16 @@ handleInputChange = e => {
     console.log(this.state.name);
   };
   adding a new function
+sending an axios request
+***********************************
+const retrievedMovies =
+    loading && !errorMessage ? (
+      <img className="spinner" src={spinner} alt="Loading spinner" />
+    ) : errorMessage ? (
+      <div className="errorMessage">{errorMessage}</div>
+    ) : (
+      movies.map((movie, index) => (
+        <Movie key={`${index}-${movie.Title}`} movie={movie} />
+      ))
+    );
   */
