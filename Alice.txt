@@ -5,3 +5,6 @@ You'll notice that your Working Directory hasn't changed.
 
 
 this is done on the branch change_alice
+
+
+this is written after commiting on master on bob.txt
